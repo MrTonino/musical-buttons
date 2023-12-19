@@ -1,0 +1,31 @@
+.invisible {
+  display: none;
+}
+button {
+  color: white;
+  background-color: #17180a;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  width: 20%;
+  border-radius: 30px;
+}
+
+.huge {
+  color: #17180a;
+  font-size: 10 rem;
+  color: red;
+}
+div {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  color: #f2d368;
+}
+h2 {
+  color: #eaf268;
+}
+button:hover {
+  background-color: #f28907;
+}
