@@ -17,6 +17,7 @@ The code below will achieve thesame result with the one following:
   }); */
 
 var noOfButtons = document.querySelectorAll(".btn").length;
+
 for (var i = 0; i < noOfButtons; i++) {
   document.querySelectorAll(".btn")[i].addEventListener("click", function () {
     var btnInnerHTML = this.innerHTML;
@@ -42,3 +43,7 @@ for (var i = 0; i < noOfButtons; i++) {
     }
   });
 }
+
+document.addEventListener("keydown", function (event) {
+  alert("Key pressed: " + event.key);
+});
