@@ -3,7 +3,7 @@
 }
 button {
   color: white;
-  background-color: #17180a;
+  background-color: #f28907;
   display: flex;
   gap: 12px;
   margin: 12px;
@@ -19,19 +19,26 @@ button {
 div {
   display: flex;
   flex-direction: column;
+  background-color: #6887f2;
 }
 h1 {
-  color: #f2d368;
+  color: #f2d468b0;
 }
 h2 {
   color: #80852159;
 }
-button:hover {
-  background-color: #f28907;
-}
+
 body {
   border: 2px solid #f2880765;
   width: 50%;
   margin-left: 25%;
   padding: 8px;
+}
+.pressed {
+  background-color: aquamarine;
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+button:hover {
+  background-color: #17180a;
 }
